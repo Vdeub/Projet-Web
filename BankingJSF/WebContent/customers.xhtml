@@ -80,6 +80,10 @@
 						<f:facet name="header">City</f:facet>
                            #{cust.city.name}
                     </p:column>
+                    <p:column>
+						<f:facet name="header">Transfer</f:facet>
+                           <h:commandButton value="Transfer" action="#{customerWeb.transfer(cust.id)}" />
+                    </p:column>
 				</p:dataTable>
 				<br />
 				<h:panelGroup rendered="#{customerWeb.allCustomers.size()==0}">

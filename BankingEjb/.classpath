@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="lib/hibernate-annotations-3.4.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-core-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/WORK/hibernate-search-engine-4.5.2.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/WORK/javaee.jar"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/WORK/javax.ejb.jar"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/WORK/javax-inject-1.0-201002241208.jar"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.ejb3.classpathContainer/JBoss6 FINAL"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 6 [1.6.0_65-b14-466.1]"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/jboss-as-7.1.1.Final/modules/javax/inject/api/main/javax.inject-1.jar"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.javaee-5.0"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/WORK/play-1.2.2.jar"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.j2ee-1.4"/>
+	<classpathentry kind="lib" path="/Users/Frederic/EMA/3A-EMACS/S9/N-tiers/jboss-6.1.0.Final/client/hibernate-jpa-2.0-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

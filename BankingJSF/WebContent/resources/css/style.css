@@ -1,0 +1,70 @@
+.header{
+    background-color: #4183D7 ;
+    padding:10px;
+    font-size: 20px;
+    color:#FFF;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+body{
+        font-family: 'Open Sans';
+        font-weight: 300;
+}
+
+
+.footer{
+    height: 50x;
+    background: #48E33A;
+    width: 100%;
+}
+
+
+.header_banque{
+    /*background-color: #1BBC9B ;*/
+    color:#FFF;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.compte{
+    width : 800px;
+    margin:auto;
+    margin-bottom:50px;
+    margin-top:50px;
+    text-align: right;
+    
+}
+
+.compte th{
+    width : 200px; 
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.compte td{
+    text-align: left;
+    width : 600px;  
+    font-weight: 300;
+    padding-left:100px;
+}
+
+.compte h3{
+   color: #019875 ;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
+
+.compte a{
+
+    color: #019875;
+    
+}
+
+.compte td .solde{
+    color: #019875;
+    font-weight: 400;
+    font-size: 20px;
+}

@@ -54,6 +54,7 @@
 						<h:commandButton value="modifier" action="#{customerWeb.modify}" />
 						<h:commandButton value="comptes"
 							action="#{bankWeb.accounts(customerWeb.currentCustomer.id)}" />
+						<h:commandButton value="Transfer" action="#{customerWeb.transfer(cust.id)}" />
 						<h:messages styleClass="messages" errorClass="invalid"
 							infoClass="valid" warnClass="warning" globalOnly="true" />
 					</h:panelGrid>
@@ -79,10 +80,6 @@
 					<p:column>
 						<f:facet name="header">City</f:facet>
                            #{cust.city.name}
-                    </p:column>
-                    <p:column>
-						<f:facet name="header">Transfer</f:facet>
-                           <h:commandButton value="Transfer" action="#{customerWeb.transfer(cust.id)}" />
                     </p:column>
 				</p:dataTable>
 				<br />
